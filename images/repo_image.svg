@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 206.58 307.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Unbenannter_Verlauf_6);
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_5);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_5" data-name="Unbenannter Verlauf 5" x1="-2.89" y1="284.47" x2="133.75" y2="120.07" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#86b3a8"/>
+      <stop offset=".43" stop-color="#ddcd94"/>
+      <stop offset=".99" stop-color="#f18977"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_6" data-name="Unbenannter Verlauf 6" x1="56.63" y1="206.58" x2="238.09" y2="1.92" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#f18977"/>
+      <stop offset=".55" stop-color="#f6aa89"/>
+      <stop offset=".72" stop-color="#c83b54"/>
+    </linearGradient>
+  </defs>
+  <g id="Ebene_1-2" data-name="Ebene 1">
+    <polygon class="cls-2" points="25.07 282.84 25.07 116.27 0 76.96 0 282.84 0 307.91 25.07 307.91 147.21 307.91 131.24 282.84 25.07 282.84"/>
+    <path class="cls-1" d="m197.83,294.19h0s-76.77-120.39-76.77-120.39c41.13-7.18,72.4-43.06,72.4-86.25C193.47,39.27,154.38.12,106.12,0h0s-81.06,0-81.06,0H0v30.29l25.07,39.31V25.07h80.85s0,0,0,0h.21c.07,0,.14-.01.22-.01,34.52,0,62.5,27.98,62.5,62.5s-27.98,62.5-62.5,62.5c-.14,0-.28,0-.43-.01h0s-29.76,0-29.76,0l8.93,14h0s91.74,143.86,91.74,143.86h29.76l-8.75-13.72Z"/>
+  </g>
+</svg>

@@ -1,0 +1,208 @@
+/*----------FONTS----------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+/*----------VARIABLES----------*/
+:root {
+  --primary-color: #e88383;
+}
+
+/*----------STYLING----------*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #15222c 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#error {
+  color: red;
+}
+
+.global_wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timer_wrap {
+  text-align: center;
+  font: normal normal 100 175px/143px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 36px #000000;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+input[type='text'] {
+  display: block;
+  background: transparent;
+  border: none;
+  text-align: center;
+  font: normal normal 100 175px/143px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 36px #000000;
+  opacity: 1;
+  max-width: 200px;
+  margin-top: 0;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+#timer_header {
+  text-align: center;
+  font: normal normal bold 29px/24px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 36px #000000;
+  opacity: 1;
+  margin-bottom: 15px;
+  margin-top: 115px;
+}
+
+hr {
+  border: 1px solid var(--primary-color);
+  opacity: 1;
+  border-radius: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 120px;
+  height: 0;
+}
+
+#colon {
+  display: block;
+  margin: auto;
+}
+
+.startTimer {
+  background: var(--primary-color) 0% 0% no-repeat padding-box;
+  font: normal normal 300 53px/44px Roboto;
+  letter-spacing: 15.9px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 25px 90px 25px 100px;
+  box-shadow: 0px 0px 26px #000000;
+  border-radius: 47px;
+  opacity: 1;
+  margin: auto;
+}
+
+.stopTimer {
+  background: transparent;
+  font: normal normal 300 53px/44px Roboto;
+  letter-spacing: 15.9px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 20px 105px 20px 115px;
+  box-shadow: 0px 0px 26px #000000;
+  border: 5px solid var(--primary-color);
+  border-radius: 47px;
+  opacity: 1;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .global_wrap {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .timer_wrap {
+    text-align: center;
+    font: normal normal 100 80px/190px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-shadow: 0px 0px 36px #000000;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  input[type='text'] {
+    display: block;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font: normal normal 100 80px/70px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-shadow: 0px 0px 36px #000000;
+    opacity: 1;
+    max-width: 150px;
+    margin-top: 0;
+  }
+
+  #timer_header {
+    text-align: center;
+    font: normal normal bold 20px/12px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-shadow: 0px 0px 36px #000000;
+    opacity: 1;
+    margin-bottom: 5px;
+    margin-top: 115px;
+  }
+
+  hr {
+    border: 0.75px solid var(--primary-color);
+    opacity: 1;
+    border-radius: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 80px;
+    height: 0;
+  }
+
+  .startTimer {
+    background: var(--primary-color) 0% 0% no-repeat padding-box;
+    font: normal normal 300 30px/25px Roboto;
+    letter-spacing: 15.9px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 15px 30px 15px 50px;
+    box-shadow: 0px 0px 26px #000000;
+    border-radius: 47px;
+    opacity: 1;
+    margin: auto;
+  }
+
+  .stopTimer {
+    background: transparent;
+    font: normal normal 300 30px/25px Roboto;
+    letter-spacing: 15.9px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 35px 10px 65px;
+    box-shadow: 0px 0px 26px #000000;
+    border: 5px solid var(--primary-color);
+    border-radius: 47px;
+    opacity: 1;
+    margin: auto;
+  }
+}

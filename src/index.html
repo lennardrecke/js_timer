@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Timer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="global_wrap">
+      <div class="timer_wrap">
+        <div class="hour_wrap">
+          <p id="timer_header">Hours</p><hr/>
+          <input type="text" name="inputTimer" id="inputHours" value="00" maxlength="2">
+        </div>
+        <p class="colon">:</p>
+        <div class="minute_wrap">
+          <p id="timer_header">Minutes</p><hr/>
+          <input type="text" name="inputTimer" id="inputMinutes" value="00" maxlength="2">
+        </div>
+        <p class="colon">:</p>
+          <div class="second_wrap">
+            <p id="timer_header">Seconds</p><hr/>
+            <input type="text" name="inputTimer" id="inputSeconds" value="00" maxlength="2">
+        </div>
+      </div>
+        <button class="startTimer" id="startTimer" onclick="buttonStart()">Start</button>
+        <p id="error"></p>
+      </div>
+  </body>
+  <script src="script.js"></script>
+</html>
